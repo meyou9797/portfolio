@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+body,h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+}
+body{
+    min-width: 1200px;/*최소 1200px만큼 가져라 , 반대말 max-width , 이너값기준*/
+    font-family:"NotoSans",sans-serif;
+    color:#333;
+    
+}
+ul{
+    padding:0;
+    margin:0;
+    list-style:none;    
+}
+a{
+    color:#333;
+    text-decoration:none;
+}
+.inner{
+    width:1200px;
+    margin:0 auto;/*위아래0 양옆은 자동,중앙정렬*/
+}
+.cf::after{
+    content:"";
+    display:block;
+    clear:both;
+}
