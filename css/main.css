@@ -206,7 +206,7 @@
 
 
 /*mainCon03*/
-.mainCon03,.mainCon04{
+.mainCon03{
     margin-bottom: 200px;
     height: 800px;
     overflow:hidden;
@@ -242,12 +242,16 @@
 
 /*mainCon04*/
 .mainCon04{
-    height:900px;
+    height:500px;
+    padding:50px 0;
+    box-sizing: border-box;
     position:relative;
     background:#f1f1f1;
+    margin-bottom: 0;
+    text-align: center;
 }
 .con04Txt{
-    margin-bottom:30px;
+    float:left;
 }
 .con04Txt p{
     line-height:25px;
@@ -258,10 +262,10 @@
     margin:0 auto;
 }
 .popBtn img{
-    margin-top:60px;
+    margin-top:50px;
 }
 .popBg{
-    background:rgba(0,0,0,0.8);
+    background:rgba(0,0,0,0.6);
     width:100%;
     height:100%;
     position:fixed;
@@ -367,7 +371,7 @@
 .logo{
   position:absolute;
   bottom:0;
-  text-algin:center;
+  text-align:center;
   color:#3498db;
   font-size:25px;
   margin-left:-5px;
@@ -402,7 +406,7 @@
   position:Relative;
   margin: auto;
   position: absolute;
-  top:15%; left: 25%;
+  top:45%; right:40%;
   -webkit-transform: translate(-50%,-50%);
       -ms-transform: translate(-50%,-50%);
           transform: translate(-50%,-50%);
@@ -412,7 +416,7 @@
   width:55px;
   height:55px;
   border:2px solid #2ecc71;
-  background-color:#FFFFFF;
+  background:;
   border-radius:50%;
   position:absolute;
   bottom:0;
@@ -439,7 +443,7 @@
   width:55px;
   height:55px;
   border:2px solid #f1c40f;
-  background-color:#FFFFFF;
+  background:transparent;
   position:absolute;
   bottom:0;
   opacity:0;
@@ -486,7 +490,7 @@
   height:0;
   border-left:26px solid transparent;
   border-right:26px solid transparent;
-  border-bottom:44px solid white;
+  border-bottom:44px solid #f1f1f1;
   position:absolute;
   bottom:-48px;
   left:-26px;
