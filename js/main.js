@@ -21,7 +21,6 @@ $(document).ready(function(){
     })
     
     
-    
     //sab tab js
     $(".tab_content").hide(); //Hide all content
             $("ul.tabs li:first").addClass("active").show(); //Activate first tab

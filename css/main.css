@@ -6,6 +6,7 @@
     height:800px;
     background:#f1f1f1;
 }
+.slick-initialized .slick-slide{outline: none;}
 .mainSliderTxt{
     padding:50px;
     font-weight: bold;
@@ -71,7 +72,7 @@
    position:absolute;
     right: 30%;
     -webkit-animation:bb 5s infinite;
-    -webkit-animation-direction 5s infinite;
+    -webkit-animation-direction:5s infinite;
     animation:bb 1.5s infinite ;
     animation-direction: :alternate;
 }
@@ -92,6 +93,7 @@
 .mainCon02{
     margin:200px 0;
     overflow: hidden;
+    padding-top:60px;
 }
 .tabs{
     text-align: center;
@@ -207,6 +209,7 @@
 
 /*mainCon03*/
 .mainCon03{
+    padding-top:60px;
     margin-bottom: 200px;
     height: 800px;
     overflow:hidden;
@@ -251,7 +254,6 @@
     text-align: center;
 }
 .con04Txt{
-    float:left;
 }
 .con04Txt p{
     line-height:25px;
@@ -400,13 +402,13 @@
   }
 }
 
-.con04Ani{
+/*.con04Ani{
   width:60px;
   height:250px;
   position:Relative;
   margin: auto;
   position: absolute;
-  top:45%; right:40%;
+  top:45%; right:25%;
   -webkit-transform: translate(-50%,-50%);
       -ms-transform: translate(-50%,-50%);
           transform: translate(-50%,-50%);
@@ -518,3 +520,4 @@
   }
   100%{opacity:0;}
 }
+*/
